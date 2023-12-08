@@ -2,7 +2,8 @@
 
 echo "####### RUNNING THE CUSTOM ASSEMBLE SCRIPT #######"
 pwd
-cp /tmp/src/main/webapp/lib/commons-math-2.2.jar /home/jboss/.m2/
+ls -alt /tmp/src
+cp /tmp/src/main/lib/commons-math-2.2.jar /home/jboss/.m2/
 ls -alt /home/jboss/.m2/
 echo "####### FINISHED RUNNING THE CUSTOM ASSEMBLE SCRIPT #######"
 
