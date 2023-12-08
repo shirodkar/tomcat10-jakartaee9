@@ -1,9 +1,7 @@
 #!/bin/sh
 
 echo "####### RUNNING THE CUSTOM 'ASSEMBLE' SCRIPT #######"
-cp /tmp/src/src/main/lib/commons-math-2.2.jar /tmp/artifacts/m2/commons-math-2.2.jar
-echo "------- Copied the common jar to .m2 -------"
-ls -alt /tmp/artifacts/m2/
+pwd
 echo "####### FINISHED RUNNING THE CUSTOM 'ASSEMBLE' SCRIPT #######"
 
 echo "####### RUNNING THE 'ASSEMBLE' SCRIPT FROM THE BUILDER IMAGE#######"
