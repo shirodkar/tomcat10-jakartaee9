@@ -8,4 +8,5 @@ echo "####### FINISHED RUNNING THE CUSTOM 'ASSEMBLE' SCRIPT #######"
 
 echo "####### RUNNING THE 'ASSEMBLE' SCRIPT FROM THE BUILDER IMAGE#######"
 exec /usr/local/s2i/assemble
+ls -alt /home/jboss/.m2/
 echo "####### FINISHED RUNNING THE 'ASSEMBLE' SCRIPT FROM THE BUILDER IMAGE#######"
