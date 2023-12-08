@@ -1,13 +1,10 @@
 #!/bin/sh
 
-echo "####### RUNNING THE CUSTOM ASSEMBLE SCRIPT #######"
-pwd
-ls -alt /tmp/src/
-ls -alt /tmp/src/src/
-ls -alt /tmp/src/src/main/
+echo "####### RUNNING THE CUSTOM 'ASSEMBLE' SCRIPT #######"
 cp /tmp/src/src/main/lib/commons-math-2.2.jar1 /home/jboss/.m2/commons-math-2.2.jar
+echo "------- Copied the common jar to .m2 -------"
 ls -alt /home/jboss/.m2/
-echo "####### FINISHED RUNNING THE CUSTOM ASSEMBLE SCRIPT #######"
+echo "####### FINISHED RUNNING THE CUSTOM 'ASSEMBLE' SCRIPT #######"
 
 echo "####### RUNNING THE ASSEMBLE SCRIPT FROM THE BUILDER IMAGE#######"
 exec /usr/local/s2i/assemble
