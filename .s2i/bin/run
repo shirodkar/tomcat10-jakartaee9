@@ -1,0 +1,9 @@
+#!/bin/sh
+
+echo "####### RUNNING THE CUSTOM 'RUN' SCRIPT #######"
+pwd
+echo "####### FINISHED RUNNING THE CUSTOM 'RUN' SCRIPT #######"
+
+echo "####### RUNNING THE 'RUN' SCRIPT FROM THE BUILDER IMAGE#######"
+exec /usr/local/s2i/run
+echo "####### FINISHED RUNNING THE 'RUN' SCRIPT FROM THE BUILDER IMAGE#######"
