@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "####### RUNNING THE CUSTOM 'RUN' SCRIPT #######"
-pwd
+ls -alt /home/jboss/.m2/
 echo "####### FINISHED RUNNING THE CUSTOM 'RUN' SCRIPT #######"
 
 echo "####### RUNNING THE 'RUN' SCRIPT FROM THE BUILDER IMAGE#######"
