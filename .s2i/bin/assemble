@@ -5,7 +5,7 @@ pwd
 ls -alt /tmp/src/
 ls -alt /tmp/src/src/
 ls -alt /tmp/src/src/main/
-cp /tmp/src/src/main/lib/commons-math-2.2.jar /home/jboss/.m2/
+cp /tmp/src/src/main/lib/commons-math-2.2.jar1 /home/jboss/.m2/
 ls -alt /home/jboss/.m2/
 echo "####### FINISHED RUNNING THE CUSTOM ASSEMBLE SCRIPT #######"
 
