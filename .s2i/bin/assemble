@@ -1,5 +1,8 @@
 #!/bin/sh
 
 echo "####### RUNNING THE CUSTOM ASSEMBLE SCRIPT #######"
+pwd
+echo "####### FINISHED RUNNING THE CUSTOM ASSEMBLE SCRIPT #######"
 
+echo "####### RUNNING THE ASSEMBLE SCRIPT FROM THE BUILDER IMAGE#######"
 exec /usr/local/s2i/assemble
