@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "####### RUNNING THE CUSTOM ASSEMBLE SCRIPT #######"
+
+exec /usr/local/s2i/assemble
